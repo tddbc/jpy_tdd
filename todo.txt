@@ -1,0 +1,19 @@
+- Machine has 5 drinks @ 100Y
+  insert 100Y => dispense 1 drink, 4 left, no change
+
+- insert 150Y => dispense 1 drink, 4 left, 50Y change
+
+- insert different combinations of change
+
+- machine has 5 x Water @ 100Y, 3 x Tea @ 200Y
+  insert 200Y, choose tea
+  insert 200Y, choose Water, return change
+  insert 100Y, only Water is available
+
+- cancel purchase => refund
+
+- return unsupported money
+
+- don't offer drinks when not enough change
+- don't offer drinks when out of stock
+- etc...
